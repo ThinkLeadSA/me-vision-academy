@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&family=Macondo&family=Wire+One&family=Ysabeau:ital,wght@1,500&display=swap');
+
+body {
+    border-style: double;
+    border-color: #C0A742;
+    border-width: 5px;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: #b49041;
+    color: white;
+    text-align: center;
+    text-decoration: overline;
+    font-family: "Wire One", Arial, Helvetica;
+    font-size: 75px;
+    padding-top: 25px;
+}
+
+.dropdown {
+    position: fixed;
+    font-size: x-large;
+    color: #C0A742;
+    margin: 10px;
+    margin-left: 88.5%;
+    margin-top: -5%;
+    z-index: 2;
+}
+
+.dropdown-toggle {
+    color:#b49041;
+    border-style: none;
+    width: 50px;
+    background-color: #C0A742;
+}
+
+.ham-icon {
+    width: 50px;
+}
+
+.dropdown-menu {
+    text-align: center;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: large;
+}
+
+#logo-hero{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #b49041;
+    position: sticky;
+}
+
+#hero-box {
+    margin-bottom: 25px;
+}
+
+#hero-img {
+    width: 100%;
+    margin-bottom: 25px;
+    z-index: -1;
+    position: static;
+}
+
+#caption {
+    position: static;
+    width: 100%;
+    text-align: center;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    padding: 5px;
+    margin-top: -25px;
+    background-color: #C0A742;
+    backface-visibility: visible;
+    color: white;
+}
+
+.hero-msg {
+    position: static;
+    width: 94%;
+    height: auto;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    background-color: #b49041;
+    color: white;
+    padding: 30px;
+    padding-top: 25px;
+    margin-left: 3%;
+    margin-top: -1.5%;
+    overflow: scroll;
+}
+
+#home-grid {
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #C0A742;
+    text-align: center;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: larger;
+}
+
+.mva-organizations{
+    background-color: #9B2226;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.mva-individuals{
+    background-color: #CA6702;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.mva-ebooks{
+    background-color: #005F73;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.mva-video-series{
+    background-color: #0A9396;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.mva-articles{
+    background-color: #4BAD90;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.mva-african-bush{
+    background-color: #519661;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.nav-link:hover, 
+.mva-organizations:hover, .mva-individuals:hover, 
+.mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover{
+    background-color: white;
+    color: #b49041;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+@media only screen and (min-width: 330px){
+
+    footer {
+        border-style: double;
+        border-width: 5px;
+        border-color: #C0A742;
+        color: #b49041;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: scroll;
+    }
+
+    #mva-slogan {
+        width: 200px;
+        float: left;
+        grid-column: 1/2;
+        margin-left: 100px;
+    }
+
+    .copyright {
+        padding: 0;
+        grid-column: 1/2;
+        margin-left: 75px;
+        color: #b49041;
+        text-decoration: none;
+        font-family: "Abel", Arial, Helvetica;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    #links {
+        padding: 5px;
+        grid-column: 2/3;
+        margin-top: -200px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: larger;
+        margin-left: 50px;
+    }
+
+
+    .think-img {
+        width: 220px;
+        margin-left: 50px;
+    }
+
+    .mca-img {
+        width: 220px;
+        margin-left: 50px;
+    }
+
+    #contacts {
+        grid-column: 3/4;
+        margin-top: -215px;
+        margin-left: 125px;
+    }
+
+    .contact {
+        font-family: "Abel", Arial, Helvetica;
+        font-size: 20px;
+        margin-left: 70px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    #email {
+        width: 200px;
+        border-style: solid;
+        border-color: #b49041;
+    }
+}
+
+
+
+@media only screen and (max-width: 330px) {
+
+    footer {
+        border-style: double;
+        border-width: 5px;
+        border-color: #C0A742;
+        color: #b49041;
+        padding: 20px;
+        overflow: scroll;
+    }
+
+    #mva-slogan {
+        width: 200px;
+        margin-left: 25px;
+        align-items: right;
+    }
+
+    .copyright {
+        color: #b49041;
+        text-decoration: none;
+        font-family: "Abel", Arial, Helvetica;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: larger;
+    }
+
+    #links {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .think-img {
+        width: 220px;
+    }
+
+    .mca-img {
+        width: 220px;
+    }
+
+    .contact {
+        font-family: "Abel", Arial, Helvetica;
+        font-size: large;
+        padding: 0;
+        text-align: center;
+    }
+
+    #email {
+        width: 200px;
+        border-style: solid;
+        border-color: #b49041;
+        margin-left: 30px;
+    }
+}
