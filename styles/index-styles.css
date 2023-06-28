@@ -74,10 +74,11 @@ nav{
     text-align: center;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    padding: 5px;
     background-color: #C0A742;
-    backface-visibility: visible;
     color: white;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: -3%;
 }
 
 .hero-msg {
