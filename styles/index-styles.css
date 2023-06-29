@@ -58,6 +58,7 @@ nav{
 }
 
 #hero-box {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -70,18 +71,15 @@ nav{
 
 #caption {
     position: static;
-    width: 94%;
-    height: auto;
-    font-family: "Abel", Arial, Helvetica;
+    width: 100%;
     text-align: center;
+    font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    background-color: #C0A742;
-    color: white;
     padding: 5px;
-    padding-top: 5px;
-    margin-left: 3%;
-    margin-top: -2.30%;
-    overflow: scroll;
+    margin-top: -25px;
+    background-color: #C0A742;
+    backface-visibility: visible;
+    color: white;
 }
 
 .hero-msg {
