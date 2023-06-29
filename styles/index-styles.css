@@ -60,6 +60,8 @@ nav{
 #hero-box {
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #hero-img {
@@ -69,14 +71,11 @@ nav{
     position: static;
 }
 
-#caption {
-    position: static;
-    width: 100%;
+.caption {
     text-align: center;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    padding: 5px;
-    margin-top: -25px;
+    margin-bottom: 25px;
     background-color: #C0A742;
     backface-visibility: visible;
     color: white;

@@ -133,8 +133,6 @@ header h6 {
     margin-right: 25px;
 }
 
-
-
 .caption {
     text-align: center;
     font-family: "Abel", Arial, Helvetica;
@@ -153,7 +151,6 @@ h2 {
 }
 
 .hero-msg {
-    position: static;
     width: 100%;
     height: auto;
     font-family: "Abel", Arial, Helvetica;
