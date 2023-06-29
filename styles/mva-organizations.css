@@ -104,22 +104,23 @@ nav{
     color: white;
 }
 
+#hero-box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
 #hero-img {
-    width: 100%;
     margin-bottom: 25px;
     z-index: -1;
     position: static;
 }
 
-#caption {
-    position: static;
-    width: 100%;
+.caption {
     text-align: center;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    padding: 5px;
-    margin-top: -25px;
     background-color: #9B2226;
     backface-visibility: visible;
     color: white;
@@ -136,7 +137,8 @@ nav{
     padding: 30px;
     padding-top: 25px;
     margin-left: 3%;
-    margin-top: -2%;
+    margin-top: -0.5%;
+    margin-bottom: -25px;
     overflow: scroll;
 }
 
@@ -185,7 +187,7 @@ nav{
     padding: 5px;
     margin: 5px;
     font-family: "Abel", Arial, Helvetica;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .mva-organizations{
