@@ -133,19 +133,13 @@ header h6 {
     margin-right: 25px;
 }
 
-.image-fluid {
-    max-width: 100%;
-    margin-bottom: 25px;
-    z-index: -1;
-}
 
-#caption {
-    max-width: 100%;
+
+.caption {
     text-align: center;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    padding: 5px;
-    margin-top: -25px;
+    margin-bottom: 25px;
     background-color: #C0A742;
     backface-visibility: visible;
     color: white;
