@@ -274,6 +274,12 @@ header h6 {
 
 @media only screen and (min-width: 330px){
 
+    #hero-box-2 {
+        width: 50%;
+        margin: 25px;
+        margin-bottom: 50px;
+    }
+
     footer {
         border-style: double;
         border-width: 5px;
