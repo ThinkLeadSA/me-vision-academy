@@ -152,7 +152,7 @@ h2 {
 
 .hero-msg {
     position: static;
-    width: 94%;
+    width: 100%;
     height: auto;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
@@ -160,8 +160,7 @@ h2 {
     color: white;
     padding: 30px;
     padding-top: 25px;
-    margin-left: 3%;
-    margin-top: -1.5%;
+    margin-top: -2%;
     overflow: scroll;
 }
 
