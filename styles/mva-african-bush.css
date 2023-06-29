@@ -146,8 +146,10 @@ header h6 {
 }
 
 h2 {
+    padding: 5px;
     text-align: center;
     font-family: "Wire One", Arial, Helvetica;
+    font-size: xx-large
 }
 
 .hero-msg {
