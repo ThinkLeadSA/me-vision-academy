@@ -82,7 +82,10 @@ h2 {
     font-size: larger;
 }
 
-
+.article-btn:hover {
+    background-color: white;
+    color: #C0A742;
+}
 
 #hero-box {
     margin-top: 25px;
