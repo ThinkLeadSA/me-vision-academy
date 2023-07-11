@@ -57,6 +57,33 @@ nav{
     position: sticky;
 }
 
+.container {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-style: double;
+    border-color: #4BAD90;
+    border-width: 5px;
+}
+
+h2 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 700;
+    color: #D58C74;
+}
+
+.article-btn{
+    background-color: #C0A742;
+    color: white;
+    border-style: double;
+    border-width: 5px;
+    border-color: #D58C74;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: larger;
+}
+
+
+
 #hero-box {
     margin-top: 25px;
     margin-bottom: 25px;
