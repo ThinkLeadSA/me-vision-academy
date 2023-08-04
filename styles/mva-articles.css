@@ -49,7 +49,7 @@ nav{
     width: 90%;
     height: auto;
     margin-left: 5%;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     margin-top: 25px;
     border-style: double;
     border-width: 5px;
@@ -60,6 +60,7 @@ nav{
 .container {
     width: 100%;
     padding: 10px;
+    margin-bottom: 50px;
     text-align: center;
     border-style: double;
     border-color: #4BAD90;
@@ -69,22 +70,42 @@ nav{
 h2 {
     font-family: "Wire One", Arial, Helvetica;
     font-weight: 700;
+    font-size: 50px;
     color: #D58C74;
 }
 
-.article-btn{
+h3 {
+    color: #b49041;
+}
+
+b {
+    color: #b49041;
+}
+
+.nav-tabs a{
+    display: flex;
     background-color: #C0A742;
     color: white;
     border-style: double;
     border-width: 5px;
+    padding: 5px;
     border-color: #D58C74;
     font-family: "Abel", Arial, Helvetica;
     font-size: larger;
+    margin: 10px;
+    text-decoration: none;
 }
 
-.article-btn:hover {
+.nav-tabs:hover a:hover{
     background-color: white;
     color: #C0A742;
+    text-decoration: none;
+}
+
+.tab-content {
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    margin-top: 25px;
 }
 
 #hero-box {
@@ -279,6 +300,10 @@ h2 {
         border-style: solid;
         border-color: #b49041;
     }
+    
+    .nav-tabs a {
+        margin: 5px;
+    }
 }
 
 
@@ -337,5 +362,57 @@ h2 {
         border-style: solid;
         border-color: #b49041;
         margin-left: 30px;
+    }
+
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+        border-style: double;
+        border-color: #4BAD90;
+        border-width: 5px;
+    }
+    
+    h2 {
+        font-family: "Wire One", Arial, Helvetica;
+        font-weight: 700;
+        font-size: 50px;
+        color: #D58C74;
+    }
+    
+    h3 {
+        color: #b49041;
+    }
+    
+    b {
+        color: #b49041;
+    }
+    
+    .nav-tabs a{
+        display: flex;
+        background-color: #C0A742;
+        color: white;
+        border-style: double;
+        border-width: 5px;
+        padding: 5px;
+        border-color: #D58C74;
+        font-family: "Abel", Arial, Helvetica;
+        font-size: larger;
+        margin: 10px;
+        text-decoration: none;
+    }
+    
+    .nav-tabs:hover a:hover{
+        background-color: white;
+        color: #C0A742;
+        text-decoration: none;
+    }
+    
+    .tab-content {
+        font-family: "Abel", Arial, Helvetica;
+        font-size: x-large;
+        margin-top: 25px;
     }
 }
