@@ -108,6 +108,18 @@ b {
     margin-top: 25px;
 }
 
+.close-btn {
+    border-style: double;
+    border-color: #D58C74;
+    text-decoration: none;
+    font-family: "Abel", Arial, Helvetica;
+}
+
+.close-btn:hover {
+    text-decoration: none;
+    color: #D58C74;
+}
+
 #hero-box {
     margin-top: 25px;
     margin-bottom: 25px;
