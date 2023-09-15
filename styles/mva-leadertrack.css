@@ -2,14 +2,14 @@
 
 body {
     border-style: double;
-    border-color: #005F73;
+    border-color: #4F1A40;
     border-width: 5px;
     margin: 0;
 }
 
 nav{
     width: 100%;
-    background-color: #005F73;
+    background-color: #4F1A40;
     color: white;
     text-align: center;
     text-decoration: overline;
@@ -53,8 +53,69 @@ nav{
     margin-top: 25px;
     border-style: double;
     border-width: 5px;
-    border-color: #005F73;
+    border-color: #4F1A40;
     position: sticky;
+}
+
+.buttons li{
+text-align: center;
+padding: 25px;
+font-size: x-large;
+font-family: "Abel", Arial, Helvetica;
+}
+
+.qlink{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #815355;
+    border-style: none;
+}
+
+.qlink:hover {
+    color: #C0A742;
+    background-color: white;
+    border: solid #C0A742;
+    text-decoration: none;
+}
+
+#why h2, #how h2, #what h2, #benefits h2 {
+    margin: 25px;
+    color: #4F1A40;
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#why p, #how p, #what p, #benefits .conclusion {
+    margin: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #815355;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+}
+
+#benefits p {
+    margin: 25px;
+    padding: 10px;
+    color: #815355;
+    background-color: white;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+}
+
+#benefits b{
+    color: #b49041;
+}
+
+#benefits .conclusion {
+    margin-bottom: 50px;
+}
+
+#questions {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 #hero-box {
@@ -74,7 +135,8 @@ nav{
     text-align: center;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    background-color: #0D67B5;
+    margin-bottom: 25px;
+    background-color: #815355;
     backface-visibility: visible;
     color: white;
 }
@@ -85,13 +147,22 @@ nav{
     height: auto;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    background-color: #005F73;
-    color: white;
+    background-color: white;
+    color: #b49041;
+    border: solid #b49041;
     padding: 30px;
     padding-top: 25px;
     margin-left: 3%;
-    margin-top: -0.5%;
+    margin-top: -1.5%;
     overflow: scroll;
+}
+
+.hero-msg h3 {
+    margin-bottom: 20px;
+    color: #4F1A40;
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 #home-grid {
@@ -171,7 +242,7 @@ nav{
 }
 
 .nav-link:hover, 
-.mva-organizations:hover, .mva-individuals:hover, 
+.mva-organizations:hover, .mva-individuals:hover,
 .mva-leadertrack:hover, .mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover{
     background-color: white;
     color: #b49041;
@@ -288,6 +359,7 @@ nav{
 
     h4 {
         font-size: larger;
+        margin-bottom: 10px;
     }
 
     #links {

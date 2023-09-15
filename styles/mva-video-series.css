@@ -57,8 +57,53 @@ nav{
     position: sticky;
 }
 
-#hero-box {
+h2 {
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: #7AACB8;
+    color: white;
+    font-family: "Abel", Arial, Helvetica;
+}
+
+div.gallery {
+    padding: 5px;
     margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 345px;
+  }
+  
+  div.gallery:hover {
+    border: solid #b49041 1px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    margin-top: 5px;
+    color: #0A9396;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 600;
+  }
+
+  .leader {
+    text-align: center;
+    font-family: "Wire One", Arial, Helvetica;
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+#hero-box {
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
@@ -130,6 +175,14 @@ nav{
     text-align: center;
 }
 
+.mva-leadertrack{
+    background-color: #4F1A40;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
 .mva-ebooks{
     background-color: #005F73;
     text-decoration: none;
@@ -164,7 +217,7 @@ nav{
 
 .nav-link:hover, 
 .mva-organizations:hover, .mva-individuals:hover, 
-.mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover{
+.mva-leadertrack:hover, .mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover{
     background-color: white;
     color: #b49041;
     text-decoration: none;
