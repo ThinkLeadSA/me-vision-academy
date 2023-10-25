@@ -70,12 +70,12 @@ div.gallery {
     padding: 5px;
     margin-top: 25px;
     margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
     border: 1px solid #ccc;
     float: left;
-    width: 200px;
-    height: 360px;
+    width: 250px;
+    height: 500px;
   }
   
   div.gallery:hover {
@@ -97,6 +97,14 @@ div.gallery {
   }
 
   .leader {
+    text-align: center;
+    font-family: "Wire One", Arial, Helvetica;
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  .qualify {
+    color:#b49041;
     text-align: center;
     font-family: "Wire One", Arial, Helvetica;
     font-size: x-large;
