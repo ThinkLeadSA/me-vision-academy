@@ -225,6 +225,14 @@ h2 {
     text-align: center;
 }
 
+.mva-awards{
+    background-color: #8A1D54;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
 .mva-leadertrack{
     background-color: #4F1A40;
     text-decoration: none;
@@ -267,7 +275,7 @@ h2 {
 
 .nav-link:hover, 
 .mva-organizations:hover, .mva-individuals:hover, 
-.mva-leadertrack:hover, .mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover{
+.mva-leadertrack:hover, .mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover, .mva-awards:hover{
     background-color: white;
     color: #b49041;
     text-decoration: none;

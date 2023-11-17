@@ -2,14 +2,14 @@
 
 body {
     border-style: double;
-    border-color: #C0A742;
+    border-color: #8A1D54;
     border-width: 5px;
     margin: 0;
 }
 
 nav{
     width: 100%;
-    background-color: #b49041;
+    background-color: #8A1D54;
     color: white;
     text-align: center;
     text-decoration: overline;
@@ -53,8 +53,119 @@ nav{
     margin-top: 25px;
     border-style: double;
     border-width: 5px;
-    border-color: #b49041;
+    border-color: #8A1D54;
     position: sticky;
+}
+
+.intro{
+    margin: 25px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+    color: #8A1D54;
+}
+
+.intro h2 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.intro p {
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+}
+
+.exceptional-leader {
+    margin: 25px;
+    margin-bottom: 50px;
+    margin-top: -25px;
+    color: #8A1D54;
+}
+
+.exceptional-leader h2 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.exceptional-leader h3 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.exceptional-leader p {
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    padding: 10px;
+    background-color: #8A1D54;
+    color: white;
+}
+
+.successful-visible {
+    margin: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #0A9396;
+}
+
+.successful-visible h2 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.successful-visible h3 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.successful-visible p {
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    padding: 10px;
+    background-color: #7AACB8;
+    color: white;
+}
+
+.successful-inconspicuous {
+    margin: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #9B3E6C;
+}
+
+.successful-inconspicuous h2 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.successful-inconspicuous h3 {
+    font-family: "Wire One", Arial, Helvetica;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.successful-inconspicuous p {
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    padding: 10px;
+    background-color: #9B3E6C;
+    color: white;
+}
+
+#conclusion {
+    padding: 10px;
+    color: white;
+    background-color: #4F1A40;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
 }
 
 #hero-box {
@@ -75,7 +186,7 @@ nav{
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
     margin-bottom: 25px;
-    background-color: #C0A742;
+    background-color: #7AACB8;
     backface-visibility: visible;
     color: white;
 }
@@ -86,7 +197,7 @@ nav{
     height: auto;
     font-family: "Abel", Arial, Helvetica;
     font-size: x-large;
-    background-color: #b49041;
+    background-color: #9B3E6C;
     color: white;
     padding: 30px;
     padding-top: 25px;
@@ -181,7 +292,7 @@ nav{
 
 .nav-link:hover, 
 .mva-organizations:hover, .mva-individuals:hover,
-.mva-leadertrack:hover, .mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover, .mva-awards:hover{
+.mva-leadertrack:hover, .mva-ebooks:hover, .mva-video-series:hover, .mva-articles:hover, .mva-african-bush:hover{
     background-color: white;
     color: #b49041;
     text-decoration: none;
