@@ -76,6 +76,14 @@ nav{
     font-size: x-large;
 }
 
+#recipient {
+    text-align: center;
+    border-color: #8A1D54;
+    border-style: solid;
+    background-color: white;
+    color:#b49041;
+}
+
 .exceptional-leader {
     margin: 25px;
     margin-bottom: 50px;
