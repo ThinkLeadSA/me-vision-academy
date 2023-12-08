@@ -169,6 +169,27 @@ nav{
     color: white;
 }
 
+#contacts {
+    margin: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #b49041;
+}
+
+.contact {
+    font-family: "Abel", Arial, Helvetica;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#email {
+    width: 200px;
+    border-style: solid;
+    border-color: #b49041;
+}
+
 #home-grid {
     width: 100%;
     margin-bottom: 0;
@@ -265,30 +286,29 @@ nav{
     border-bottom-right-radius: 20%;
 }
 
-@media only screen and (min-width: 330px){
+@media only screen and (min-width: 100px){
 
     footer {
         border-style: double;
         border-width: 5px;
         border-color: #C0A742;
         color: #b49041;
-        padding: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        overflow: scroll;
+    }
+
+    #copy {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     #mva-slogan {
-        width: 200px;
-        float: left;
+        width: 250px;
         grid-column: 1/2;
-        margin-left: 100px;
     }
 
     .copyright {
         padding: 0;
         grid-column: 1/2;
-        margin-left: 75px;
         color: #b49041;
         text-decoration: none;
         font-family: "Abel", Arial, Helvetica;
@@ -299,73 +319,8 @@ nav{
     #links {
         padding: 5px;
         grid-column: 2/3;
-        margin-top: -200px;
-        margin-left: 50px;
-        text-align: center;
-    }
-
-    h4 {
-        font-size: larger;
-        margin-left: 50px;
-    }
-
-
-    .think-img {
-        width: 220px;
-        margin-left: 50px;
-    }
-
-    .mca-img {
-        width: 220px;
-        margin-left: 50px;
-    }
-
-    #contacts {
-        grid-column: 3/4;
-        margin-top: -215px;
-        margin-left: 125px;
-    }
-
-    .contact {
-        font-family: "Abel", Arial, Helvetica;
-        font-size: 20px;
-        margin-left: 70px;
-        margin-top: 15px;
-        margin-bottom: 5px;
-        padding: 0;
-    }
-
-    #email {
-        width: 200px;
-        border-style: solid;
-        border-color: #b49041;
-    }
-}
-
-
-
-@media only screen and (max-width: 330px) {
-
-    footer {
-        border-style: double;
-        border-width: 5px;
-        border-color: #C0A742;
-        color: #b49041;
-        padding: 20px;
-        overflow: scroll;
-    }
-
-    #mva-slogan {
-        width: 200px;
-        margin-left: 25px;
-        align-items: right;
-    }
-
-    .copyright {
-        color: #b49041;
-        text-decoration: none;
-        font-family: "Abel", Arial, Helvetica;
-        font-size: x-large;
+        margin-top: 25px;
+        
         text-align: center;
     }
 
@@ -373,30 +328,9 @@ nav{
         font-size: larger;
     }
 
-    #links {
-        padding: 5px;
-        text-align: center;
-    }
 
     .think-img {
-        width: 220px;
-    }
-
-    .mca-img {
-        width: 220px;
-    }
-
-    .contact {
-        font-family: "Abel", Arial, Helvetica;
-        font-size: large;
-        padding: 0;
-        text-align: center;
-    }
-
-    #email {
-        width: 200px;
-        border-style: solid;
-        border-color: #b49041;
-        margin-left: 30px;
+        width: 60%;
+        margin-top: 25px;
     }
 }
