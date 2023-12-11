@@ -96,11 +96,12 @@ div.gallery {
     font-weight: 600;
   }
 
-  .leader {
+  .leader, a{
     text-align: center;
     font-family: "Wire One", Arial, Helvetica;
     font-size: x-large;
     font-weight: 600;
+    color: black;
   }
 
   .qualify {
@@ -109,6 +110,10 @@ div.gallery {
     font-family: "Wire One", Arial, Helvetica;
     font-size: x-large;
     font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 
 #hero-box {
