@@ -96,7 +96,7 @@ div.gallery {
     font-weight: 600;
   }
 
-  .leader, a{
+  .leader {
     text-align: center;
     font-family: "Wire One", Arial, Helvetica;
     font-size: x-large;
@@ -112,7 +112,7 @@ div.gallery {
     font-weight: 600;
   }
 
-  a:hover {
+  .gallery a:hover {
     text-decoration: none;
   }
 
