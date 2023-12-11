@@ -57,6 +57,80 @@ nav{
     position: sticky;
 }
 
+.vision h1 {
+    margin: 25px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Abel", Arial, Helvetica;
+    color: white;
+    background-color: #b49041;
+    border-style: double;
+    border-width: 10px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.vision p{
+    margin: 25px;
+    text-align: center;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    font-weight: 500;
+    color: #b49041;
+}
+
+.vision-p1 {
+    padding: 20px;
+    border-style: solid;
+    border-color: #9B2226;
+}
+
+.vision-p2 {
+    padding: 20px;
+    border-style: solid;
+    border-color: #CA6702;
+}
+
+.vision-p3 {
+    padding: 20px;
+    border-style: solid;
+    border-color: #8A1D54;
+}
+
+.vision-p4 {
+    padding: 20px;
+    border-style: solid;
+    border-color: #4F1A40;
+}
+
+.vision-p5 {
+    padding: 25px;
+    border-style: solid;
+    border-color: #0A9396;
+}
+
+.vision-meetings {
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: "Abel", Arial, Helvetica;
+    font-size: x-large;
+    color: white;
+    background-color: #b49041;
+    border-width: 10px;
+}
+
+.vision-meetings:hover{
+    text-decoration: none;
+    color: #b49041;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b49041;
+}
+
 #hero-box {
     margin-top: 25px;
     margin-bottom: 25px;
