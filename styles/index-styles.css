@@ -80,6 +80,14 @@ nav{
     color: #b49041;
 }
 
+.bold {
+    color: #8A1D54;
+}
+
+.bold:hover {
+    text-decoration: none;
+}
+
 .vision-p1 {
     padding: 20px;
     border-style: solid;
@@ -332,5 +340,11 @@ nav{
     .think-img {
         width: 60%;
         margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1 {
+        font-size: x-large;
     }
 }
